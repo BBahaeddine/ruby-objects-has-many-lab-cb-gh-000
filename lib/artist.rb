@@ -22,6 +22,6 @@ class Artist
   end
   
   def self.song_count
-    retunr @songs.size
+    return @songs.length
   end
 end
