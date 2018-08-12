@@ -23,6 +23,10 @@ class Song
     # else 
     #   return nil
     # end
-    return @artist.name || nil
+    if @artist.name 
+      return @artist.name
+    else 
+      return nil
+    end
   end
 end
